@@ -14,6 +14,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello World!");
         System.out.println("Nothing.");
+        System.out.print("Main.main");
         System.out.println("Programming is great fun!");
     }
 }
