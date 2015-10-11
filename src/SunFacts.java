@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * Created by florije on 2015/10/10.
  */
@@ -70,6 +72,13 @@ public class SunFacts {
         String name = "florije";
         System.out.println(name);
         System.out.println(name.length());
+
+        int number;
+        Scanner keyboard = new Scanner(System.in);
+        System.out.println("Enter a interger value:");
+        number = keyboard.nextInt();
+        System.out.println("The inputed number is: " + number);
+
 
     }
 }
