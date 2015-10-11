@@ -65,6 +65,7 @@ public class SunFacts {
         System.out.println(Math.PI);
 
         final double INTEREST_RATE = 0.082;
+        System.out.println(INTEREST_RATE);
 
         String name = "florije";
         System.out.println(name);
