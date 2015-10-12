@@ -18,10 +18,12 @@ public class CorrectedInputProblem {
         System.out.println("What is your income?");
         income = keyboard.nextDouble();
         // new line
-        keyboard.nextLine();  // 这里有点问题,看看怎么的.
+//        keyboard.nextLine();  // 这里有点问题,看看怎么的.
         // get user name
         System.out.println("What is your name?");
-        name = keyboard.nextLine();
+//        name = keyboard.nextLine();
+        name = keyboard.next();  // 需要改成next，因为nextline有一个东西：
+
 
         // display info
         System.out.println("Hello " + name + ". Your age is " + age + " and your income is $" + income);
